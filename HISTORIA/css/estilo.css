@@ -1,0 +1,581 @@
+/*!
+ * MUSEO DE HISTORIA WEBSITE
+ * Version - 1.0
+ * Author: Vannelo
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #118185;
+ * ACCENT: #;
+
+*/
+
+
+/* TIPOGRAFÍA */
+	@font-face {
+	    font-family: gotham;
+	    src: url("../fonts/gotham/gotham.ttf");
+	}
+	@font-face {
+	    font-family: trajan;
+	    src: url("../fonts/trajan/trajan.ttf");
+	}
+	* {
+		font-family: gotham;
+	}
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		margin: 0;
+		padding: 0;
+	}
+
+/* GENERAL */
+	.row {
+		margin-bottom: 0 !important;
+	}
+	.altura {
+		height: 45px;
+	}
+
+/* MENÚ */
+	.caja-desktop {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 200;
+	}
+	.seccion-menu-desktop {
+		padding: 20px 0px;
+		color: white;
+	}
+	.seccion-menu-desktop > .container {
+		background-color: #118185;
+	}
+	.seccion-menu-desktop .izquierda {
+		text-align: center;
+	}
+	.seccion-menu-desktop .izquierda img {
+		width: 80%;
+		margin-top: 5%;
+	}
+	.seccion-menu-desktop svg {
+		width: 25px;
+		height: 18px;
+		margin-left: 5px;
+	}
+	.seccion-menu-desktop a svg path {
+		fill: white !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-desktop a svg:hover path {
+		fill: gray !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-desktop a {
+		color: white;
+		font-weight: 600;
+	}
+	.seccion-menu-desktop .centro {
+		text-align: center;
+	}
+	.seccion-menu-desktop .centro input {
+		width: 80%;
+		border-bottom: 1px solid white;
+		line-height: auto;
+		height: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.seccion-menu-desktop .derecha {
+		text-align: center;
+	}
+	.seccion-menu-desktop .borde {
+		border: 1px solid white;
+	}
+	.seccion-menu-desktop .borde-abajo {
+		border-bottom: 2px solid white;
+	}
+	.seccion-menu-desktop .alto {
+		height: 92px;
+	}
+	.seccion-menu-desktop .trigger:hover .submenu {
+		display: block;
+	}
+	.submenu {
+		display: none;
+		position: absolute;
+		width: 210px;
+		padding-top: 10px;
+	}
+	.submenu a {
+		padding: 7px 0px;
+		display: inline-block;
+		background-color: black;
+		width: 100%;
+		transition-duration: .3s;
+	}
+	.submenu a:hover {
+		background-color: #118185;
+		color: white;
+	}
+
+	.seccion-menu-mobile {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		display: none;
+		width: 100%;
+		background-color: #118185;
+		z-index: 200;
+	}
+	.seccion-menu-mobile .barra-01 {
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.seccion-menu-mobile .barra-01 img {
+		width: 30%;
+	}
+	.seccion-menu-mobile .barra-02 {
+		text-align: center;
+	}
+	.seccion-menu-mobile svg {
+		width: 25px;
+		height: 18px;
+		margin-left: -15px;
+	}
+	.seccion-menu-mobile a svg path {
+		fill: white !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-mobile a svg:hover path {
+		fill: gray !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-mobile input {
+		width: 50%;
+		border-bottom: 1px solid white;
+		line-height: auto;
+		height: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.seccion-menu-mobile .barra-03 {
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.seccion-menu-mobile .boton-menu {
+		width: 35px;
+		cursor: pointer;
+		margin: auto;
+	}
+	.boton-menu .linea {
+		width: 100%;
+		height: 2px;
+		background-color: white;
+		margin: 7px 0px;
+	}
+	.contenedor-mobile {
+		display: none;
+		text-align: center;
+	}
+	.contenedor-mobile a {
+		color: white;
+		padding: 10px 0px;
+		display: inline-block;
+		width: 100%;
+	}
+
+/* COLECCION */
+	.seccion-coleccion {
+		background-image: url('../img/coleccion-bg.jpg');
+		background-position: center;
+		background-size: cover;
+		height: 600px;
+		z-index: 100;
+	}
+	.seccion-coleccion .contenedor {
+		position: relative;
+		width: 1200px;
+		height: 600px;
+		margin: auto;
+	}
+	.seccion-coleccion h2 {
+		position: absolute;
+		top: 40%;
+		color: white;
+		font-size: 40px;
+		font-family: trajan;
+	}
+	.seccion-coleccion .texto {
+		position: absolute;
+		width: 350px;
+		top: 55%;
+		color: white;
+		font-size: 14px;
+	}
+	.seccion-coleccion .separador {
+		width: 100%;
+		height: 2px;
+		background-color: #118185;
+		margin: 15px 0px;
+	}
+
+/* INFORMACION */
+	.seccion-informacion {
+		padding: 50px 0px;
+	}
+	.seccion-informacion .container {
+		padding: 50px;
+	}
+	.seccion-informacion a {
+		display: block;
+		margin: auto;
+		width: 150px;
+		background-color: black;
+		color: white;
+		border-bottom: 5px solid #118185;
+		padding: 10px 0px;
+		text-align: center;
+		margin-top: 40px;
+		transition-duration: .3s;
+	}
+	.seccion-informacion a:hover {
+		background-color: #118185;
+		transition-duration: .3s;
+	}
+
+/* CURADURIAS */
+	.seccion-curadurias {
+		padding: 50px 0px;
+	}
+	.seccion-curadurias h3 {
+		font-size: 30px;
+		text-align: center;
+		font-family: trajan;
+	}
+	.seccion-curadurias .separador {
+		width: 200px;
+		height: 2px;
+		background-color: #118185;
+		margin: auto;
+	}
+	.seccion-curadurias .marco {
+		padding: 20px;
+	}
+	.caja-curaduria a {
+		color: #272727;
+		text-decoration: none;
+	}
+	.caja-curaduria a:hover {
+		text-decoration: underline;
+	}
+	.caja-curaduria .imagen {
+		background-position: center;
+		background-size: cover;
+		height: 200px;
+		margin: 20px 0px;
+	}
+	.caja-curaduria .texto {
+		border: 1px solid black;
+		padding: 20px;
+	}
+	.caja-curaduria h4 {
+		font-size: 20px;
+		text-align: center;
+		margin: 0;
+		font-family: trajan;
+	}
+	.caja-curaduria .separador {
+		margin-top: 10px;
+		margin-bottom: 5px;
+		width: 20px;
+	}
+
+/* FOOTER */
+	.seccion-footer {
+		background-color: #118185;
+		padding: 20px 0px;
+	}
+	.seccion-footer .izquierda a {
+		color: white;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+	.seccion-footer .derecha {
+		text-align: right;
+		font-size: 12px;
+		color: white;
+	}
+
+/* OBJETO */
+	.seccion-objeto {
+		margin-top: 150px;
+		background-color: #111;
+		padding: 50px 0px;
+	}
+	.seccion-objeto .izquierda {
+		padding: 10px 20px;
+	}
+	.seccion-objeto .izquierda img {
+		width: 100%;
+	}
+	.seccion-objeto .herramientas {
+		text-align: right;
+		margin: 20px 0px;
+	}
+	.herramienta {
+		width: 40px;
+		background-color: #118185;
+		display: inline-block;
+		margin-left: 10px;
+		text-align: center;
+		padding: 10px 0px 5px 0px;
+		cursor: pointer;
+	}
+	.herramienta svg {
+		width: 18px;
+		height: 18px;
+	}
+	.herramienta svg path {
+		fill: white;
+	}
+	.seccion-objeto .izquierda .separador {
+		width: 100%;
+		height: 2px;
+		background-color: #118185;
+		margin: 30px 0px;
+	}
+	.seccion-objeto .centro {
+		padding: 10px;
+	}
+	.seccion-objeto .izquierda h4 {
+		font-size: 22px;
+		font-weight: 900;
+		color: white;
+	}
+	.seccion-objeto .centro h5 {
+		padding: 15px 0px;
+		background-color: black;
+		color: white;
+		font-size: 16px;
+		text-align: center;
+		border-bottom: 2px solid #118185;
+		margin: 0;
+	}
+	.seccion-objeto .centro .detalle {
+		border-bottom: 1px solid black;
+		background-color: white;
+		margin: 0;
+		padding: 10px;
+	}
+	.detalle h6 {
+		text-align: center;
+		color: #118185;
+		font-size: 14px;
+		margin: 0;
+	}
+	.detalle p {
+		font-size: 14px;
+		margin: 0;
+		text-align: center;
+	}
+	.seccion-objeto .centro a {
+		display: block;
+		background-color: white;
+		color: #118185;
+		font-weight: 900;
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.seccion-objeto .derecha {
+		padding: 20px;
+	}
+	.caja-autor .imagen img {
+		width: 100%;
+	}
+	.caja-autor h3 {
+		color: white;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.caja-autor p {
+		color: white;
+		font-size: 12px;
+	}
+	.caja-autor a {
+		display: block;
+		text-align: center;
+		background-color: #118185;
+		padding: 10px 0px;
+		color: white;
+		font-size: 14px;
+		margin: 20px 0px;
+	}
+
+/* RELACIONADOS */
+	.seccion-relacionados {
+		padding: 40px 0px;
+	}
+	.seccion-relacionados .izquierda h3 {
+		background-color: black;
+		color: white;
+		border-bottom: 2px solid #118185;
+		font-size: 14px;
+		text-align: center;
+		padding: 20px 0px;
+	}
+	.seccion-relacionados .izquierda .imagen {
+		background-position: center;
+		background-size: center;
+		height: 200px;
+		cursor: pointer;
+		transition-duration: .3s;
+		margin: 20px 0px;
+	}
+	.seccion-relacionados .izquierda .imagen:hover {
+		opacity: .5;
+		transition-duration: .3s;
+	}
+	.seccion-relacionados .derecha {
+		padding: 20px 60px;
+	}
+	.seccion-relacionados .derecha h4 {
+		background-color: black;
+		color: white;
+		padding: 20px 30px;
+		border-bottom: 2px solid #118185;
+		font-size: 16px;
+		margin: 30px 0px;
+		width: 80%;
+	}
+	.seccion-relacionados .derecha h5 {
+		font-size: 14px;
+		color: #118185;
+	}
+	.seccion-relacionados .derecha h6 {
+		font-size: 16px;
+		color: black;
+	}
+	.seccion-relacionados .derecha .separador {
+		width: 60%;
+		height: 1px;
+		background-color: black;
+		margin: 20px 0px;
+		margin-bottom: 30px;
+	}
+	.seccion-relacionados .derecha .multimedia {
+		background-position: center;
+		background-size: center;
+		height: 200px;
+		cursor: pointer;
+		transition-duration: .3s;
+		margin: 20px 0px;
+		width: 60%;
+	}
+	.seccion-relacionados .derecha .multimedia:hover {
+		opacity: .5;
+		transition-duration: .3s;
+	}
+
+/* RESPONSIVE */
+	@media only screen and (max-width: 1000px) {
+		.seccion-menu-desktop {
+			display: none;
+		}
+		.seccion-menu-mobile {
+			display: block;
+		}
+		.seccion-coleccion h2 {
+			position: absolute;
+			left: 10vw;
+			top: 50%;
+			color: white;
+			font-size: 30px;
+			font-family: trajan;
+		}
+		.seccion-coleccion .texto {
+			position: absolute;
+			width: 80vw;
+			left: 10vw;
+			top: 65%;
+			color: white;
+			font-size: 14px;
+		}
+		.seccion-informacion {
+			padding: 20px 0px;
+		}
+		.seccion-informacion .container {
+			padding: 20px;
+		}
+		.seccion-footer .izquierda {
+			text-align: center;
+			margin: 10px 0px;
+		}
+		.seccion-footer .izquierda a {
+			color: white;
+			padding: 5px 10px;
+			font-size: 12px;
+		}
+		.seccion-footer .derecha {
+			text-align: center;
+		}
+		.seccion-objeto .herramientas {
+			text-align: center;
+			margin: 20px 0px;
+		}
+		.herramienta {
+			width: 30px;
+			background-color: #118185;
+			display: inline-block;
+			margin-left: 10px;
+			text-align: center;
+			padding: 10px 0px 5px 0px;
+			cursor: pointer;
+		}
+		.herramienta svg {
+			width: 12px;
+			height: 12px;
+		}
+		.seccion-relacionados .derecha {
+			padding: 20px;
+		}
+		.seccion-relacionados .derecha h4 {
+			background-color: black;
+			color: white;
+			padding: 20px 30px;
+			border-bottom: 2px solid #118185;
+			font-size: 16px;
+			margin: 30px 0px;
+			width: 100%;
+		}
+		.seccion-relacionados .derecha .multimedia {
+			width: 100%;
+		}
+	}
+
+	@media only screen and (min-width: 1000px) {
+		.seccion-menu-desktop {
+			display: block;
+		}
+		.seccion-menu-mobile {
+			display: none;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

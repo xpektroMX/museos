@@ -1,0 +1,546 @@
+/* @override 
+	file:///Volumes/DingDing/guilsys/MUSEOS/Museo%20Nacional%20de%20Antropologi%CC%81a/html/css/tema.css
+	http://guilsys.com/museos/antropologia/css/tema.css */
+
+/* tema.css */
+
+/* - Logo - */
+
+
+
+.material-icons {
+	margin: 0!important;
+	padding: 0!important;
+}
+
+img.logo {
+  height: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo .logo-text {
+  font-size: 16px;
+  vertical-align: top;
+}
+
+ul.left {
+	margin-left: 5%;
+}
+ul.right {
+	margin-right: 5%;
+}
+
+
+
+img.logo {
+	vertical-align: middle;
+	margin-top: 0;
+		margin-right: 20px;
+		width: 90px;
+		margin-left: 20px;
+}
+
+
+
+@media (max-width: 1300px) {
+
+}
+
+
+/*- parallax -*/
+.parallax-container {
+	height: 700px!important;
+	width: 100%;
+	top: 0;
+	left: 0;
+	
+}
+
+/*-navegacion-*/
+nav {
+	position: absolute;
+	z-index: 1000;
+	top: 60px;
+}
+div.nav-wrapper {
+	font-family: "NeutraText-Book";
+	text-align: center;
+}
+
+.menu-social {
+font-family: "NeutraText-Light";
+	position: absolute;
+	height: 40px;
+	display: inline-block;
+	right: 8%;
+	text-align: right;
+	top: 20px;
+}
+.menu-social .material-icons {
+	
+}
+.menu-social img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.menu-social a img {
+	fill: white !important; 
+	transition-duration: .2s;
+}
+.menu-social a svg:hover path {
+	fill: #e8e8e8 !important; 
+	transition-duration: .2s;
+}
+.menu-social a {
+	color: white;
+	font-weight: 300;
+}
+.menu-social a:hover {
+	color: #e8e8e8;
+}
+.menu-social .link {
+	margin-left: 20px;
+}
+
+.nav-wrapper img.search {
+	width: 20px;
+	height: 20px;
+	margin-left: -30px;
+}
+.nav-wrapper a svg path {
+	fill: white !important; 
+	transition-duration: .2s;
+}
+.nav-wrapper a svg:hover path {
+	fill: #e8e8e8 !important; 
+	transition-duration: .2s;
+}
+.nav-wrapper input {
+	border-style: none!important;
+	text-decoration: none;
+}
+
+
+/* COLECCION */
+	.seccion-coleccion {
+		background: url('../images/background-2.jpg') left top no-repeat fixed #f5f5f5;
+		padding-top: 50px;
+		color: #ffffff;
+		font-family: "NeutraText-Book";
+		padding-bottom: 80px;
+	}
+	.seccion-coleccion .fondo-coleccion {
+		background-color: rgba(0, 0, 0, 0.8);
+		margin-right: 5%;
+		margin-left: 5%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	.seccion-coleccion h2 {
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+		margin: 0;
+		padding-top: 20px;
+	}
+	
+		
+	.seccion-coleccion form {
+		text-align: center;
+	}
+	.seccion-coleccion form input {
+		width: 300px;
+		line-height: auto;
+		height: 30px;
+	}
+	.seccion-coleccion svg {
+		width: 20px;
+		height: 18px;
+		margin-bottom: -5px;
+	}
+	
+	.filtro-padre {
+		position: relative;
+		display: inline-block;
+		padding: 15px 20px;
+		cursor: pointer;
+		font-size: 12px;
+	}
+	.filtro-padre:hover {
+		background-color: white;
+	}
+	ul {
+		display: inline-block;
+		margin: 0;
+	}
+	.filtro-hijo {
+		position: absolute;
+		margin-left: -20px;
+		margin-top: 15px;
+		background-color: white;
+		display: none;
+		z-index: 900;
+		width: 100px;
+		text-align: left;
+	}
+	.filtro-hijo li {
+		display: block;
+		padding: 10px 20px;
+	}
+	.filtro-padre:hover .filtro-hijo {
+		display: block;
+	}
+	.marco .derecha {
+		text-align: right;
+	}
+	.marco .derecha {
+		font-size: 16px;
+		font-weight: 600;
+		color: #666;
+		padding-top: 12px;
+	}
+	.marco img {
+		width: 25px;
+		margin: 0px 10px;
+		margin-bottom: -5px;
+		cursor: pointer;
+	}
+
+	.seccion-coleccion .marco-filtro {
+		
+	}
+	.seccion-coleccion .padding {
+		
+		padding: 10px;
+	
+	}
+	.caja-coleccion {
+		border-bottom: 1px solid #ffffff;
+	}
+	.caja-coleccion .imagen img {
+		width: 100%;
+		margin: 0;
+	}
+	.caja-coleccion h3 {
+		font-size: 16px;
+		font-weight: 100;
+		margin: 10px 0px;
+		min-height: 2.2em;
+	}
+	.caja-coleccion h4 {
+		font-size: 20px;
+		font-weight: 600;
+		margin: 10px 0px;
+	}
+
+	.paginacion {
+		text-align: center;
+		padding: 10px 0px 50px 0px;
+	}
+	.paginacion button {
+		background-color: white;
+		border: none;
+		color: black;
+		width: 30px;
+		font-weight: bold;
+		transition-duration: .3s;
+	}
+	.paginacion button:hover {
+		background-color: black;
+		color: white;
+		transition-duration: .3s;
+	}
+
+/* EXPOS TEMPORALES*/
+
+#seccion-temporales {
+	font-family: "NeutraText-Book";
+}
+
+#seccion-temporales div.row div.col.l6.s1.tempos div.caja-coleccion2 div.imagen {
+	height: auto;
+	display: block;
+}
+
+#seccion-temporales .tempos {
+	margin: 0!important;
+	padding: 0!important;
+}
+#seccion-temporales div.caja-coleccion2 h3 {
+	font-size: 20px;
+	font-family: "NeutraText-Bold";
+	margin: 10px auto;
+	display: block;
+	width: 50%;
+	
+}
+
+#seccion-temporales div.row h4.center {
+	font: 26px "NeutraText-Book";
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#seccion-temporales  div.caja-coleccion2 p {
+	text-align: center;
+	display: block;
+}
+
+/* ACTIVIDADES*/
+#actividades {
+	background-color: #dcdcdc;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#actividades .caja-actividades {
+	padding-left: 50px;
+}
+#actividades .caja-actividades h3 {
+	font: 22px "NeutraText-Bold";
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#actividades .caja-actividades h5 {
+	font: 1.2em "FuturaStd-Book";
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding-bottom: 10px;
+	display: block;
+	
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 33%;
+}
+
+#actividades .caja-actividades p.titulo-actividad {
+	display: block;
+	width: 60%;
+	font: 16px/18px  "NeutraText-Bold";
+	height: 50px;
+}
+
+#actividades .caja-actividades h4 {
+	font: 18px "NeutraText-Book";
+	margin-top: 2px;
+	display: block;
+	width: 33%;
+}
+
+#actividades .caja-actividades a.btn {
+	-moz-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+	background-color: transparent;
+	color: #272727;
+	font: 0.8em "NeutraText-Book";
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	display: block;
+	clear: both;
+	width: 60%;
+	top: 10px;
+	padding-top: 5px;
+}
+
+/* PIEZAS */
+
+#seccion-piezas {
+	font-family: "NeutraText-Book";
+	background-color: #dcdcdc;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#seccion-piezas .caja-coleccion2 div.ficha-pieza-arqueo {
+	display: block;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	top: -50px;
+	position: relative;
+	padding: 10px;
+	background-color: #ffffff;
+}
+#seccion-piezas .caja-coleccion2 div.ficha-pieza-etno {
+	display: block;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	top: -50px;
+	position: relative;
+	padding: 10px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#seccion-piezas div.row div.col.l6.s1.tempos div.caja-coleccion2 div.imagen {
+	height: auto;
+	display: block;
+}
+
+#seccion-piezas .tempos {
+	margin: 0!important;
+	padding: 0!important;
+}
+#seccion-piezas div.caja-coleccion2 h3 {
+	font-size: 20px;
+	font-family: "NeutraText-Bold";
+	margin: 10px auto;
+	display: block;
+	width: 50%;
+	
+}
+
+#seccion-piezas div.row h4.center {
+	font: 26px "NeutraText-Book";
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#seccion-piezas  div.caja-coleccion2 p {
+	text-align: center;
+	display: block;
+}
+
+/* NOTAS*/
+
+#seccion-notas {
+	font-family: "NeutraText-Book";
+}
+
+#seccion-notas div.row div.col.l6.s1.tempos div.caja-coleccion2 div.imagen {
+	height: auto;
+	display: block;
+}
+
+#seccion-notas .tempos {
+	margin: 0!important;
+	padding: 0!important;
+}
+#seccion-notas div.caja-notas h3 {
+	font-size: 20px;
+	font-family: "NeutraText-Bold";
+	margin: 0 auto;
+	display: block;
+	width: 60%;
+	min-height: 2.5em;
+}
+
+
+#seccion-notas div.caja-notas h4 {
+	font: 18px "NeutraText-Book";
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#seccion-notas  div.caja-notas p {
+	text-align:justify;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* INFORMACIÓN */
+
+	#seccion-informacion {
+		background-color: #e9e9e9;
+		padding-top: 20px;
+		padding-bottom: 70px;
+	}
+	#seccion-informacion h4 {
+		font: 16px "NeutraText-Demi";
+		margin-bottom: 5px;
+		display: block;
+	}
+	
+	#seccion-informacion div.container {
+		
+	}
+	
+	#seccion-informacion p {
+		font-size: 12px;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	
+/* DATOS/REGISTRO */
+
+#seccion-registro {
+	background: url('../images/background-3.jpg') center center no-repeat fixed #f5f5f5;
+	background-size: cover;
+	font: 12px "ProximaNova-Regular";
+	height: auto;
+}
+
+
+#seccion-registro div.container.logo {
+	background-color: transparent;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#seccion-registro div.container.logo  p {
+	color: #ffffff;
+}
+
+#seccion-registro img.icon {
+	width: 20px;
+	margin-right: 50px;
+}
+
+#seccion-registro div.container {
+	background-color: #ffffff;
+	display: block;
+	padding: 15px;
+	position: relative;
+	top: -60px;
+}
+#seccion-registro p strong {
+	font-family: "ProximaNova-Bold";
+}
+#seccion-registro h3 {
+	font-size: 16px;
+	font-family: "DroidSerif-BoldItalic";
+	color: gray;
+}
+#seccion-registro h4 {
+	font-size: 16px;
+	font-family: "NeutraText-Bold";
+	color: black;
+}
+#seccion-registro .opcion img {
+	width: 20px;
+	margin-bottom: -3px;
+}
+#seccion-registro .opcion {
+	color: gray;
+	font-size: 14px;
+	border-bottom: 1px solid gray;
+	width: 80%;
+	margin: auto;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+#seccion-registro a {
+	color: gray;
+}
+
+/* Logos pie */
+
+
+	
+/* RESPONSIVE */
+
+	@media only screen and (max-width: 1000px) {
+		
+	}
+
+	@media only screen and (min-width: 1000px) {
+		
+	}
+

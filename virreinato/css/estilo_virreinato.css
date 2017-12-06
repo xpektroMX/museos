@@ -1,0 +1,243 @@
+/* @override 
+	file:///Volumes/DingDing/guilsys/MUSEOS/Virreinato/diego/avance1/css/estilo_virreinato.css
+	http://virreinato.redefinitionmex.com/css/estilo_virreinato.css
+	 */
+	 
+	 
+	 
+/*CSS dev. by Diego Vargas 2017*/
+@charset "UTF-8";
+body{
+	font-family: "Neutra";
+	font-weight:300;
+}
+
+/* Menu redes sociales top*/
+#nav_redes{
+	min-width: 445px;
+}
+#nav_redes li a:link{
+	font-size: .7rem;
+	color:#5e6e65;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "ProximaNova";
+	font-weight: 100;
+	margin-bottom: -35px;
+}
+#nav_redes li a:visited{
+	color:#982b18
+}
+#nav_redes li a:hover{
+color:#434343;
+}
+#nav_redes li a:active{
+
+}
+#nav_redes img {
+		width: 30px;
+		height: 20px;
+		margin-bottom: -5px;
+	}
+/* Menu principal*/
+div.nav-wrapper {
+	font-family: "Neutra";
+	text-align: center;
+}
+div.nav-wrapper ul {
+	font-family: "Neutra";
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+img.logo {
+	width: 150px!important;
+	display: block;
+	height: auto!important;
+}
+
+div.nav-wrapper li a:link{
+	color:#7e2b13;
+	font-family: "Neutra";
+	font-weight:300;
+	font-size: .9rem;
+}
+div.nav-wrapper li a:visited{
+	color:#8e2b13;
+	font-family: "Neutra";		
+}
+div.nav-wrapper li a:hover{
+	color:#7e1e13;
+	font-family: "Neutra";
+}
+div.nav-wrapper li a:active{
+	color:red;
+	font-family: "Neutra";
+}
+div.nav-wrapper img{
+	width: 20px;
+	height: 20px;
+	margin-bottom: -5px;
+}
+div.nav-wrapper form{
+	width: 55px;
+}
+/*Secciones del layout*/
+/*Header con imagen*/
+header{
+height: 450px;
+background-image: url("../imgs/banner1.png");
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+/*seccion de coleccion*/
+#coleccion{
+	font-family: "Neutra";
+	font-weight:300;
+	font-size: 1.1rem;
+
+}
+#coleccion h1, h2, h3{
+	color:#7e2b13;
+}
+#info h4{
+	font-size: 1.3rem;
+	border-bottom: 3px #fff solid;
+}
+#ingresa{
+	font-size: 1rem;
+}
+#ingresa a:link{
+	color: #8f2d16;
+}
+#ingresa a:visited{
+	color: #8f2d16;
+}
+#ingresa a:hover{
+	color: #741c07;
+	text-decoration: underline;
+}
+
+#ingresa button{
+	font-size: .6rem;
+}
+#contacta{
+	font-family: "Neutra";
+}
+#contacta img {
+		width: 30px;
+		height: 20px;
+		margin-bottom: -5px;
+	}
+.ocre1{
+	color:#7e2b13;
+	font-weight: 600;
+	font-size: 1.1rem;
+	fill:#7e2b13;
+}
+.ocre_cursiva{
+	color:#7e2b13;
+	font-size: .9rem;
+	font-style: italic;
+}
+footer{
+	height: 80px;
+}
+footer p{
+	padding-top: 30px; 
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+          ESTILO PARA OBJETO.HTML
+Hay ID y clases en esta sección que sólo se usann en el documento de objeto
+------   -------- ------  ------- --- --- ----- ------ --- ------ ------- */
+
+.subtitulo {
+	font-size: 1.1rem;
+	font-style: italic;
+	color:grey;
+}
+
+dt{
+font-size: 1rem;
+color: 444;
+}
+dd{
+text-align: left;
+font-weight: 600;
+}
+
+ a svg .ocre1{ 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+ a svg:hover .ocre1{
+	fill:#000;
+}
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+          ESTILO PARA colección.HTML
+Hay ID y clases en esta sección que sólo se usann en el documento de COLECCION
+------   -------- ------  ------- --- --- ----- ------ --- ------ ------- */
+
+#head_col{
+	height: 300px;
+	background-image: url("../imgs/coleccion.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#head_col h2{
+	color:#fff;
+	font-size: 2rem;
+	margin-top: 200px;
+}
+#menu_filtros{
+	margin-top: -40px;
+}
+#menu_filtros a:link{
+	font-weight: 600;
+	font-size: .9rem;
+}
+
+
+/* ESTILOS CARDS CATÁLOGO */
+
+span.card-title {
+	font-size: 1.2em!important;
+	line-height: 1em!important;
+	color: #5b2b2b!;
+	text-shadow: 0 0 3px #000000;
+	padding-bottom: 10px!important;
+}
+
+.card-image.trigger {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

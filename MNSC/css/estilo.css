@@ -1,0 +1,637 @@
+/* @override 
+	http://guilsys.com/museos/sancarlos/css/estilo.css */
+
+/*!
+ * MUSEO DE SAN CARLOS WEBSITE
+ * Version - 1.0
+ * Author: Vannelo
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #696866;
+ * ACCENT: #81233e;
+
+*/
+
+/* FONT */
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-light.ttf");
+	    font-weight: 100;
+	}
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-medium.ttf");
+	    font-weight: 300;
+	}
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-bold.ttf");
+	} 
+
+	@font-face {
+	    font-family: gotham;
+	    src: url("../fonts/gotham/gotham.ttf");
+	}
+
+	@font-face {
+	    font-family: playfair;
+	    src: url("../fonts/playfair/playfair.ttf");
+	}
+
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-light.ttf");
+	    font-weight: 100;
+	}
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-regular.ttf");
+	    font-weight: 300;
+	}
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-bold.ttf");
+	    font-weight: 600;
+	}
+
+	@font-face {
+	    font-family: droid;
+	    src: url("../fonts/droid/droid.ttf");
+	}
+
+/* GENERAL */
+	.row {
+		margin-bottom: 0;
+	}
+	* {
+		font-family: proxima;
+	}
+	.guia {
+		position: absolute;
+		height: 2px;
+		background-color: red;
+	}
+	body{
+		overflow-x: hidden;
+	}
+/* MENU */
+	.seccion-menu-desktop {
+		position: absolute;
+		z-index: 200;
+		width: 100vw;
+		top: 0;
+		padding: 10px 0px;
+		background-image: -webkit-gradient(
+		  linear, left top, left bottom, from(rgba(0,0,0,1)),
+		  to(rgba(80,80,80,0.2)), color-stop(.5,#000)
+		);
+		font-family: proxima;
+		font-weight: 300;
+	}
+	.seccion-menu-desktop .izquierda {
+		text-align: center;
+		padding-top: 10px;
+	}
+	.seccion-menu-desktop .centro {
+		padding: 10px;
+	}
+	.seccion-menu-desktop .derecha {
+		text-align: right;
+		padding-top: 18px;
+	}
+	.seccion-menu-desktop .izquierda img {
+		width: 60%;
+	}
+	.seccion-menu-desktop .centro img {
+		width: 80%;
+		display: block;
+	}
+	.seccion-menu-desktop .derecha a {
+		color: gray;
+		margin: 0px 10px;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop .derecha a:hover {
+		color: white;
+	}
+	.seccion-menu-desktop .derecha svg {
+		width: 25px;
+		height: 18px;
+		margin-left: 5px;
+	}
+	.seccion-menu-desktop .derecha a svg path {
+		fill: white !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-desktop .derecha a svg:hover path {
+		fill: gray !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-desktop ul {
+		margin: 10px 0px;
+		padding: 5px;
+	}
+	.seccion-menu-desktop li {
+		display: inline-block;
+		margin-right: 20px;
+		font-size: 14px;
+	}
+	.seccion-menu-desktop a {
+		color: white;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop a:hover {
+		color: gray;
+		transition-duration: .3s;
+	}
+	.caja-redes {
+		padding: 15px 0px;
+	}
+	.caja-redes svg {
+		width: 30px;
+		height: 20px;
+		margin-bottom: -5px;
+		margin-left: -30px;
+	}
+	.caja-redes a svg path {
+		fill: white !important; 
+		transition-duration: .2s;
+	}
+	.caja-redes a svg:hover path {
+		fill: #e8e8e8 !important; 
+		transition-duration: .2s;
+	}
+	.seccion-menu-desktop .separador {
+		width: 100%;
+		height: 1px;
+		background-color: white;
+	}
+	.seccion-menu-mobile {
+		display: none;
+		position: absolute;
+		width: 100%;
+		z-index: 200;
+		top: 0;
+		left: 0;
+		background-image: -webkit-gradient(
+		  linear, left top, left bottom, from(rgba(0,0,0,1)),
+		  to(rgba(80,80,80,0.2)), color-stop(.5,#000)
+		);
+		padding: 20px;
+	}
+	.seccion-menu-mobile .barra-01 {
+		text-align: center;
+	}
+	.seccion-menu-mobile .barra-01 img {
+		width: 50px;
+	}
+	.seccion-menu-mobile .barra-02 {
+		text-align: center;
+	}
+	.seccion-menu-mobile .barra-02 img {
+		width: 80%;
+	}
+	.seccion-menu-mobile .barra-03 {
+
+	}
+	.seccion-menu-mobile .barra-03 .abrir-menu {
+		width: 35px;
+		margin: auto;
+		cursor: pointer;
+	}
+	.abrir-menu .linea {
+		width: 100%;
+		margin: 7px 0px;
+		background-color: white;
+		height: 2px;
+	}
+	.menu-escondido {
+		display: none;
+	}
+	.menu-escondido li {
+		text-align: center;
+	}
+	.menu-escondido a {
+		color: white;
+		display: inline-block;
+		padding: 5px 0px;
+	}
+
+/* HEADER */
+	.seccion-header {
+		position: relative;
+		z-index: 100;
+		width: 100vw;
+		background-image: url('../img/header.jpg');
+		background-position: center;
+		background-size: cover;
+		height: 600px;
+	}
+	.seccion-header .caja-texto {
+		position: absolute;
+		bottom: 10%;
+		left: 10%;
+		width: 300px;
+	}
+	.seccion-header .caja-texto h2 {
+		color: white;
+		font-size: 36px;
+		font-family: playfair;
+	}
+	.seccion-header .separador {
+		width: 90%;
+		background-color: white;
+		height: 1px;
+	}
+	.seccion-header .caja-texto h3 {
+		color: white;
+		font-size: 20px;
+		font-family: proxima;
+		font-weight: 600;
+	}
+	.seccion-header .caja-numeracion {
+		position: absolute;
+		bottom: 10%;
+		right: 10%;
+		width: 30px;
+		color: white;
+		text-align: right;
+	}
+	.seccion-header .caja-numeracion .numero {
+		color: white;
+		border-bottom: 1px solid white;
+		margin: 5px 0px;
+	}
+	.seccion-header .caja-numeracion .activo {
+		margin-right: 10px;
+		margin-left: -10px;
+		font-weight: 600;
+		border-bottom: 2px solid white;
+	} 
+
+/* COLECCION */
+	.seccion-coleccion {
+		padding: 40px 0px;	
+	}
+	.seccion-coleccion .izquierda img {
+		width: 100%;
+	}
+	.seccion-coleccion .izquierda .caja-imagen {
+		background-position: center;
+		background-size: cover;
+		height: 350px;
+	}
+	.seccion-coleccion .derecha {
+		padding: 0px 20px;
+	}
+	.seccion-coleccion .derecha h3 {
+		margin: 0;
+		font-size: 30px;
+		font-family: proxima;
+		color: #696866;
+		font-weight: 600;
+	}
+	.seccion-coleccion .derecha p {
+
+	}
+	.seccion-coleccion .derecha a {
+		font-family: droid;
+		color: gray;
+		font-style: italic;
+		border-bottom: 2px solid white;
+		transition-duration: .3s;
+	}
+	.seccion-coleccion .derecha a:hover {
+		border-bottom: 2px solid gray;
+		transition-duration: .3s;
+	}
+	.seccion-coleccion .derecha .separador {
+		width: 60%;
+		background-color: #81233e;
+		height: 1px;
+		margin: 10px 0px;
+	}
+	.seccion-coleccion .derecha h4 {
+		margin: 0;
+		font-size: 30px;
+		font-family: droid;
+		color: black;
+		font-weight: 600;
+		font-style: italic;
+		margin: 10px 0px;
+	}
+	.seccion-coleccion .derecha button {
+		background-color: transparent;
+		font-size: 30px;
+		font-weight: 900;
+		padding: 0;
+		border: none;
+		font-family: gotham;
+		transition-duration: .3s;
+	}
+	.seccion-coleccion .derecha button:hover {
+		color: #81233e;
+		transition-duration: .3s;
+	}
+	.seccion-coleccion .derecha .paginas {
+		font-size: 18px;
+	}
+
+/* INFORMACION */
+	.seccion-informacion {
+		background-color: #e9e9e9;
+		padding: 20px 0px 20px 0px;
+	}
+	.seccion-informacion h4 {
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.seccion-informacion p {
+		font-size: 14px;
+	}
+	.seccion-informacion .col {
+		padding: 10px;
+	}
+	.seccion-informacion img {
+		margin-bottom: -8px;
+		margin-right: 5px;
+	}
+	.seccion-informacion .actividades {
+		background-color: white;
+		padding: 10px;
+	}
+	.seccion-informacion .actividades h3 {
+		font-size: 20px;
+		font-family: proxima;
+		font-weight: 600;
+		color: #696866;
+		margin: 0;
+	}
+	.seccion-informacion .actividades h4 {
+		font-size: 14px;
+		font-family: proxima;
+		font-weight: 100;
+		color: #696866;
+		margin: 0px;
+	}
+	.seccion-informacion .actividades h5 {
+		font-size: 18px;
+		font-family: droid;
+		font-weight: 100;
+		color: black;
+		font-style: italic;
+		margin: 3px 0px;
+	}
+	.seccion-informacion .actividades p {
+		margin: 3px 0px;
+	}
+	.seccion-informacion .actividades .derecha {
+		text-align: right;
+		padding-top: 25px;
+	}
+	.seccion-informacion .actividades .derecha p {
+		margin: 0;
+	}
+	.seccion-informacion .actividades .separador {
+		width: 100%;
+		height: 1px;
+		background-color: #81233e;
+		margin: 5px 0px;
+	}
+	.seccion-informacion .actividades .izquierda img {
+		width: 30px;
+		margin-bottom: -5px;
+	}
+	.seccion-informacion .actividades .izquierda a {
+		font-family: droid;
+		color: gray;
+		font-style: italic;
+	}
+	.seccion-informacion .actividades .calendario {
+		margin-top: 20px;
+	}
+	.seccion-informacion .actividades .derecha img {
+		width: 100%;
+	}
+	.seccion-informacion .actividades .col {
+		padding: 10px;
+	}
+
+	.seccion-informacion > .container > .derecha {
+		padding: 0;
+		background-color: white;
+	}
+	.caja-registrate {
+		border: 1px solid #666;
+		background-color: white;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.caja-registrate img {
+		width: 100%;
+
+	}
+	.caja-registrate h3 {
+		font-size: 16px;
+		font-family: droid;
+		font-style: italic;
+		color: gray;
+	}
+	.caja-registrate h4 {
+		font-size: 16px;
+		font-family: neutra;
+		color: black;
+	}
+	.caja-registrate .opcion img {
+		width: 20px;
+		margin-bottom: -3px;
+	}
+	.caja-registrate .opcion {
+		color: gray;
+		font-size: 14px;
+		border-bottom: 1px solid gray;
+		width: 80%;
+		margin: auto;
+		padding: 5px 0px;
+		margin-bottom: 10px;
+		text-align: left;
+	}
+	.caja-registrate a {
+		color: gray;
+	}
+	.caja-registrate p {
+		padding: 20px;
+	}
+
+/* TEMPORALES */
+	.seccion-temporales {
+		padding: 40px 0px;
+	}
+	.seccion-temporales .izquierda {
+		padding-top: 70px;
+	}
+	.seccion-temporales h3 {
+		font-size: 20px;
+		font-family: proxima;
+		font-weight: 600;
+		color: #696866;
+		margin: 0;
+	}
+	.seccion-temporales .caja-temporal {
+		position: relative;
+		background-position: center;
+		background-size: cover;
+		height: 230px;
+	}
+	.caja-temporal .texto {
+		position: absolute;
+		bottom: 10%;
+		left: 5%;
+		color: white;
+		font-family: playfair;
+		font-size: 20px;
+		border-bottom: 1px solid white;
+	}
+
+/* GRID */
+	.seccion-grid {
+		padding: 20px 0px 40px 0px;
+		background-color: #e9e9e9;
+	}
+	.seccion-grid .marco {
+		padding: 8px;
+	}
+	.seccion-grid .marco .caja-grid {
+		background-color: white;
+	}
+	.caja-grid h3 {
+		font-size: 16px;
+		text-align: center;
+		font-weight: 900;
+		padding: 30px 20px 0px 20px;
+		height: 60px;
+
+	}
+	.caja-grid .imagen {
+		background-position: center;
+		background-size: cover;
+		height: 200px;
+	}
+	.caja-grid p {
+		padding: 15px;
+	}
+
+/* LOGOS GOB */
+	.seccion-logos {
+		text-align: center;
+		padding: 40px 0px;
+	}
+	.logo1 {
+		width: 150px;
+		margin: 0px 10px;
+	}
+	.logo2 {
+		width: 70px;
+		margin: 0px 10px;
+	}
+	.logo3 {
+		width: 140px;
+		margin: 0px 10px;
+		margin-bottom: 10px;
+	}
+
+/* FOOTER */
+	.seccion-footer {
+		background-color: black;
+		color: white;
+		padding: 20px 0px;
+	}
+	.seccion-footer a {
+		color: white;
+		margin-right: 20px;
+	}
+	.seccion-footer .derecha {
+		text-align: right;
+	}
+
+/* RESPONSIVE */
+	@media only screen and (max-width: 1000px) {
+		.seccion-menu-desktop {
+			display: none;
+		}
+		.seccion-menu-mobile {
+			display: block;
+		}
+		.seccion-header .caja-texto {
+			width: 200px;
+		}
+		.seccion-header .caja-texto h2 {
+			color: white;
+			font-size: 20px;
+			font-family: playfair;
+		}
+		.seccion-header .caja-texto h3 {
+			color: white;
+			font-size: 16px;
+			font-family: proxima;
+			font-weight: 600;
+		}
+		.seccion-header .caja-numeracion {
+			position: absolute;
+			bottom: 12%;
+			right: 10%;
+			width: 30px;
+			color: white;
+			text-align: right;
+		}
+		.seccion-coleccion .derecha h3 {
+			margin: 20px 0px;
+			font-size: 30px;
+			font-family: proxima;
+			color: #696866;
+			font-weight: 600;
+		}
+		.seccion-informacion {
+			padding: 0;
+		}
+		.seccion-temporales {
+			padding: 30px 0px;
+		}
+		.seccion-temporales .izquierda {
+			padding-top: 0px;
+			padding-bottom: 20px;
+		}
+		.seccion-footer .izquierda {
+			text-align: center;
+		}
+		.seccion-footer .derecha {
+			text-align: center;
+		}
+	
+	}
+
+	@media only screen and (min-width: 1000px) {
+		.seccion-menu-desktop {
+			display: block;
+		}
+		.seccion-menu-mobile {
+			display: none;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

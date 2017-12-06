@@ -1,0 +1,174 @@
+/*!
+ * MUSEO DE LA ESTAMPA WEBSITE
+ * Version - 1.0
+ * Author: Vannelo
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #e8e8e8;
+ * ACCENT: #4d4d4d;
+
+*/
+
+/* OBJETO */
+	.seccion-objeto {
+
+	}
+	.seccion-objeto .izquierda {
+		background-color: #828282;
+		padding: 50px 0px;
+	}
+	.seccion-objeto .imagen {
+		width: 60%;
+		background-color: #828282;
+		margin: auto;
+	}
+	.seccion-objeto .imagen img {
+		width: 100%;
+	}
+	.iconos {
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.icono {
+		width: 30px;
+		margin: 0px 30px;
+	}
+	.icono img {
+		width: 30px;
+	}
+	.izquierda .separador {
+		width: 80%;
+		height: 1px;
+		margin: auto;
+		background-color: #bbb;
+	}
+	.caja-info {
+		width: 80%;
+		margin: auto;
+	}
+	.caja-info h3 {
+		font-size: 24px;
+		color: white;
+		font-weight: 600;
+	}
+	.caja-info h4 {
+		font-size: 20px;
+		color: white;
+		font-weight: 100;
+	}
+	.seccion-objeto .derecha {
+		padding: 30px;
+	}
+	.derecha h3 {
+		font-size: 20px;
+		font-weight: 100;
+	}
+	.derecha h4 {
+		font-size: 18px;
+		font-weight: 100;
+	}
+	.derecha h5 {
+		font-size: 18px;
+		font-weight: 300;
+	}
+	.derecha p {
+		margin: 10px 0px 0;
+	}
+	.derecha .separador {
+		width: 60%;
+		height: 1px;
+		background-color: #888;
+		margin: 20px 0px;
+	}
+	.derecha a {
+		color: black;
+		font-weight: 100;
+	}
+	.derecha button {
+		display: block;
+		background-color: white;
+		border: none;
+		color: black;
+		font-weight: 300;
+		padding: 15px 20px;
+		margin: 20px 0px;
+	}
+	.caja-relacionados img {
+		width: 100%;
+		transition-duration: .3s;
+		cursor: pointer;
+	}
+	.caja-relacionados img:hover {
+		width: 100%;
+		opacity: .5;
+		transition-duration: .3s;
+	}
+	.seccion-relacionados {
+		background-color: white;
+		padding: 60px 0px 0px 0px;
+		text-align: center;
+	}
+	.seccion-relacionados h3 {
+		text-align: center;
+		font-size: 26px;
+	}
+	.seccion-relacionados button {
+		background-color: transparent;
+		font-weight: 600;
+		border: none;
+		font-size: 30px;
+		margin: 10px 0px;
+	}
+	.caja-tags {
+		background-color: #e8e8e8;
+		padding: 20px 0px 60px 0px;
+	}
+	.caja-tags span {
+		border: 1px solid black;
+		padding: 5px 20px;
+		margin: 5px;
+		cursor: pointer;
+	}
+	.detalle {
+		margin: 0;
+	}
+
+
+
+
+
+
+/* RESPONSIVE */
+
+	@media only screen and (max-width: 1000px) {
+		.caja-tags span {
+			border: 1px solid black;
+			padding: 5px 5px;
+			margin: 2px;
+			cursor: pointer;
+		}
+	}
+
+	@media only screen and (min-width: 1000px) {
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

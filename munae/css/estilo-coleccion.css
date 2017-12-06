@@ -1,0 +1,158 @@
+/*!
+ * MUSEO DE LA ESTAMPA WEBSITE
+ * Version - 1.0
+ * Author: Vannelo
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #e8e8e8;
+ * ACCENT: #4d4d4d;
+
+*/
+
+/* COLECCION */
+	.seccion-coleccion {
+
+	}
+	.seccion-coleccion h2 {
+		font-size: 24px;
+		font-weight: 600;
+		text-align: center;
+	}
+	.seccion-coleccion form {
+		text-align: center;
+	}
+	.seccion-coleccion form input {
+		width: 300px;
+		line-height: auto;
+		height: 30px;
+	}
+	.seccion-coleccion svg {
+		width: 20px;
+		height: 18px;
+		margin-bottom: -5px;
+	}
+	.marco {
+		width: 100%;
+		border-top: 1px solid #999;
+		border-bottom: 1px solid #999;
+	}
+
+	.filtro-padre {
+		position: relative;
+		display: inline-block;
+		padding: 15px 20px;
+		cursor: pointer;
+		font-size: 12px;
+	}
+	.filtro-padre:hover {
+		background-color: white;
+	}
+	ul {
+		display: inline-block;
+		margin: 0;
+	}
+	.filtro-hijo {
+		position: absolute;
+		margin-left: -20px;
+		margin-top: 15px;
+		background-color: white;
+		display: none;
+		z-index: 900;
+		width: 100px;
+		text-align: left;
+	}
+	.filtro-hijo li {
+		display: block;
+		padding: 10px 20px;
+	}
+	.filtro-padre:hover .filtro-hijo {
+		display: block;
+	}
+	.marco .derecha {
+		text-align: right;
+	}
+	.marco .derecha {
+		font-size: 16px;
+		font-weight: 600;
+		color: #666;
+		padding-top: 12px;
+	}
+	.marco img {
+		width: 25px;
+		margin: 0px 10px;
+		margin-bottom: -5px;
+		cursor: pointer;
+	}
+
+	.seccion-coleccion .marco-filtro {
+		padding: 10px;
+	}
+	.seccion-coleccion .padding {
+		border: 1px solid #999;
+		padding: 10px;
+		background-color: white;
+	}
+	.caja-coleccion .imagen img {
+		width: 100%;
+		margin: 0;
+	}
+	.caja-coleccion h3 {
+		font-size: 16px;
+		font-weight: 100;
+		margin: 10px 0px;
+	}
+	.caja-coleccion h4 {
+		font-size: 20px;
+		font-weight: 600;
+		margin: 10px 0px;
+	}
+
+	.paginacion {
+		text-align: center;
+		padding: 10px 0px 50px 0px;
+	}
+	.paginacion button {
+		background-color: white;
+		border: none;
+		color: black;
+		width: 30px;
+		font-weight: bold;
+		transition-duration: .3s;
+	}
+	.paginacion button:hover {
+		background-color: black;
+		color: white;
+		transition-duration: .3s;
+	}
+
+
+
+/* RESPONSIVE */
+
+	@media only screen and (max-width: 1000px) {
+		
+	}
+
+	@media only screen and (min-width: 1000px) {
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

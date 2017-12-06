@@ -1,0 +1,202 @@
+/* @override 
+	http://guilsys.com/museos/sancarlos/css/estilo-coleccion.css */
+
+/*!
+ * MUSEO DE SAN CARLOS WEBSITE
+ * Version - 1.0
+ * Author: Vannelo
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #696866;
+ * ACCENT: #81233e;
+
+*/
+
+/* HEADER */
+	.coleccion {
+		background-image: url('../img/header-02.jpg');
+		height: 400px;
+		padding-top: 120px;
+	}
+	.seccion-header h2 {
+		color: white;
+		text-align: center;
+		font-family: playfair;
+		margin: 40px 0px;
+	}
+	
+	.seccion-header h3 {
+		color: white;
+		text-align: center;
+		font-family: proxima;
+		margin: 20px 0px;
+		font-size: 20px;
+	}
+	.buscador .izquierda {
+		background-color: white;
+		color: black;
+		height: 40px;
+		text-align: center;
+		font-weight: 600;
+		font-size: 18px;
+		padding-top: 7px;
+	}
+	.buscador .centro {
+		background-color: black;
+		color: white;
+		height: 40px;
+		text-align: center;
+		font-weight: 600;
+		font-size: 18px;
+		padding-top: 7px;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+	}
+	.buscador .derecha {
+		background-color: black;
+		color: white;
+		height: 40px;
+		text-align: center;
+		font-weight: 600;
+		font-size: 18px;
+		padding-top: 7px;
+		border-top: 1px solid white;
+		border-bottom: 1px solid white;
+		border-right: 1px solid white;
+	}
+	.buscador .derecha img {
+		width: 30px;
+		cursor: pointer;
+	}
+	.coleccion  svg {
+		width: 25px;
+		height: 18px;
+		margin-left: 5px;
+	}
+	.coleccion  svg path {
+		fill: white !important; 
+		transition-duration: .2s;
+	}
+	.coleccion  svg:hover path {
+		fill: gray !important; 
+		transition-duration: .2s;
+	}
+	.coleccion input {
+		width: 80%;
+		line-height: 15px;
+		height: 15px;
+	}
+
+/* TEXTO */
+	.seccion-texto {
+		padding: 50px 100px;
+	}
+
+/* TEMAS */
+	.seccion-temas {
+		padding: 40px 0px;
+	}
+	.seccion-temas h2 {
+		font-size: 24px;
+		color: #696866;
+		font-weight: 600;
+		margin: 10px 0px;
+	}
+	.seccion-temas .separador {
+		width: 300px;
+		height: 1px;
+		background-color: #82223e;
+		margin-bottom: 30px;
+	}
+	.seccion-temas .imagen {
+		height: 220px;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		cursor: pointer;
+		transition-duration: .3s;
+	}
+	.seccion-temas .imagen:hover {
+		transition-duration: .3s;
+		opacity: .5;
+	}
+	.seccion-temas .marco {
+		padding: 10px;
+	}
+	.seccion-temas h3 {
+		font-size: 16px;
+		font-style: italic;
+		font-family: droid;
+	}
+	.seccion-temas a {
+		color: #696866!important;
+	}
+	.seccion-temas a:hover {
+		text-decoration: underline;
+	}
+
+
+
+
+/* RESPONSIVE */
+	@media only screen and (max-width: 1000px) {
+		.coleccion {
+			background-image: url('../img/header-02.jpg');
+			height: 500px;
+			padding-top: 120px;
+		}
+		.seccion-header h2 {
+			color: white;
+			text-align: center;
+			font-family: playfair;
+			margin: 80px 0px 20px 0px;
+			font-size: 30px;
+		}
+		.seccion-header h3 {
+			color: white;
+			text-align: center;
+			font-family: proxima;
+			margin: 20px 0px;
+			font-size: 20px;
+		}
+		.buscador .izquierda {
+			
+		}
+		.buscador .centro {
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+			border-right: 1px solid white;
+			border-left: 1px solid white;
+		}
+		.buscador .derecha {
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+			border-right: 1px solid white;
+			border-left: 1px solid white;
+		}
+		.seccion-texto {
+			padding: 50px 30px;
+		}
+	}
+
+	@media only screen and (min-width: 1000px) {
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

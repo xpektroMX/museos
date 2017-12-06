@@ -1,0 +1,582 @@
+
+
+
+body{
+    font-size: 16px;   
+    font-family: 'Neutra Text';
+    color: #6a3c00;
+    font-weight: 300;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+main {
+    flex: 1 0 auto;
+}
+
+figure{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-weight: bold;
+}
+
+h3:after{
+    content: " —"
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h4 small.date{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+h5{
+    color: #b76e11;
+    font-weight: 300;
+    margin-bottom: 0.156rem;
+}
+
+h5 small{
+    text-transform: uppercase;
+    font-size: 65%;
+}
+
+.spaceD{
+    margin-bottom: 0;
+}
+
+main ul li a:hover{
+    color: #b76e11;
+}
+
+aside h5.datos{
+    font-weight: bold;
+    color: #6a3c00;
+    margin: 0;
+}
+
+aside p{
+    margin: 0;
+    padding: 0;
+}
+
+h6{
+    font-size: 1.5rem;
+}
+
+
+.text-cc{
+    color: #6a3c00;
+}
+.text-ccl{
+    color: #b76e11;
+}
+
+.text-pk{
+    color: #ec008c;
+}
+
+
+.text-gray{
+    color: #231f20;
+    opacity: .5;
+    
+}
+
+
+.text-mayus{
+    text-transform: uppercase;
+}
+
+section{
+    position: relative;
+}
+
+.pinksp{
+    background-color: #ec008c;
+}
+
+.pagination li.active{
+    background-color: #ec008c;
+}
+
+
+.pinkBorder{
+    padding-bottom: 0px;
+    border-bottom: 4px solid #ec008c;
+    width: 4rem;
+    text-align: left;
+}
+
+.lineco{
+    position: relative;
+    top: 10rem;
+}
+
+.mas:after{
+    font-family:'FontAwesome';
+    margin-left: 5px;
+    content: "\f178";
+}
+
+.masr:after{
+    font-family:'FontAwesome';
+    margin-left: 5px;
+    content: "\f178";
+    color: #ec008c;
+}
+
+.divider{
+    background-color: #6a3c00;
+    opacity: .2;
+    margin: 10px;
+}
+
+
+.graybg{
+    background: #cccccc;
+    padding-bottom: 0;
+}
+
+
+#vista section .row#obRel, .row#masInformacionCard{
+    margin-bottom: 0;
+}
+
+nav{
+    box-shadow: none;
+    font-weight: 500;
+    max-height: 7.5rem;
+}
+
+
+nav .brand-logo{
+    padding-top: 15px;
+}
+
+#home nav{
+    position: absolute;
+    z-index: 1000;    
+    background: #000; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom,rgba(0, 0, 0, 0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(top,rgba(0,0,0,0.1),rgba(0,0,0,1)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(top,rgba(0,0,0,0.1),rgba(0,0,0,1)); /*Fx 3.6-15*/
+    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+    max-height: 12rem;   
+}
+
+
+
+
+
+.text-may, h3{
+    text-transform: uppercase;
+}
+
+/*------
+CAROUSEL
+------*/
+.carousel .indicators .indicator-item.active{
+    background-color: #ec008c;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: rgba(255, 255, 255, 1)
+}
+
+
+/*------
+COLECCIÓN
+------*/
+
+.threeccol{
+    	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+  	flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.threeccol li{
+    width: 33.333%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#home .card{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.threeccol li:nth-child(odd) .card{
+    background-color: #f2f2f2;
+}
+
+.threeccol li:nth-child(even) .card{
+    background-color: #e6e6e6
+}
+
+.threeccol li .card-title{
+    color: #b76e11;
+    font-size: 14px;
+}
+
+#coleccion .threeccol li .card-content p{
+    font-weight: bold;
+}
+
+
+/*ACTIVIDADES*/
+
+
+#actividades .container {
+     position: relative;
+}
+
+#actividades .container .row{
+    margin-bottom: 0;
+    padding-right: 30px;
+}
+
+#actividades .card.horizontal{
+    background: transparent;
+}
+
+#actividades .card.horizontal .card-image{
+    width: 30%;
+}
+
+#actividades .card.horizontal .card-stacked .card-content{
+    padding: 0;
+}
+
+#actividades .dividerLine{
+    border: 0;
+    border-bottom: 1px solid #6a3c00;
+    opacity: .5;
+}
+
+
+
+aside#infoGral{
+    padding: 20px;
+    box-sizing: border-box;
+    width: 33%;
+    position: absolute;
+    right: -20px;
+    top: -40px;
+    
+}
+
+aside#infoGral .contDatos{
+    background-color: #fcf3f7;
+    padding: 10px 30px 10px 30px;
+    border-right: 1px solid #b76e11;
+    border-left: 1px solid #b76e11;
+    padding-bottom: 3rem;
+
+}
+
+
+
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea, input[type="search"]:not(.browser-default){
+    padding-left: 10px;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #6a3c00;
+}
+
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;    
+  border: 1px solid #b76e11;
+    
+}
+
+.input-field label{
+    color: #6a3c00;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+}
+
+input:not([type]), input[type="text"]:not(.browser-default), input[type="password"]:not(.browser-default), input[type="email"]:not(.browser-default), input[type="url"]:not(.browser-default), input[type="time"]:not(.browser-default), input[type="date"]:not(.browser-default), input[type="datetime"]:not(.browser-default), input[type="datetime-local"]:not(.browser-default), input[type="tel"]:not(.browser-default), input[type="number"]:not(.browser-default), input[type="search"]:not(.browser-default), textarea.materialize-textarea{
+    border: 1px solid #6a3c00;
+    margin-bottom: 0;
+}
+
+
+
+aside#infoGral #ingresar{
+    margin-top: 20px;
+}
+
+
+
+/*
+EXPOSICIONES
+*/
+
+#exposiciones{
+    position: relative;
+    margin-top: 4rem;
+}
+
+
+#exposiciones .card-content{
+    padding-bottom: 6rem;
+}
+
+#exposiciones .card-image.expos img{
+    padding: 20px;
+    position: absolute;
+    top: -6rem;
+}
+
+
+#verExpos{
+    margin-top: 14rem;
+}
+
+
+/*------
+VISTA
+-----*/
+.fichaTec{
+    margin-top: 2rem;
+    border-bottom: 1px solid #000
+}
+
+.cardInfo{
+    background: #fff;
+    padding: 10px 20px;
+    
+}
+.cardInfo h4, .cardInfo p{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.cardInfo h5 small{
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.cardInfo h5 a{
+    border-bottom: 1px solid #b76e11;
+    padding-bottom: 6px;
+}
+
+
+.rrss ul li{
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+
+.slick-prev::before, .slick-next::before{
+    color: #ec008c;
+}
+
+#obRel{
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+.slick-prev, .slick-next{
+    background: transparent;
+    border: none;
+    position: absolute;
+    z-index: 999;
+    display:block;
+    color: transparent;
+    width: 30px;
+
+}
+
+.slick-prev::before{
+    content: '←';
+}
+
+.slick-next::before {
+    content: '→';
+}
+
+#obRel .slick-next{
+    bottom: -40px;
+    right: 0;
+}
+
+
+#obRel .slick-prev{
+    bottom: -40px;
+    right: 40px;
+}
+
+
+#obRel .slick-dots{
+    display: none !important;
+}
+
+
+/*------
+BUSCADOR
+-----*/
+
+#searchCo{
+    padding: 3rem 15px 0rem 15px;
+}
+
+#searchCo form{
+    margin-top: 2rem;
+}
+
+
+#searchCo p{
+    font-weight: bold;
+}
+
+.col3{
+    margin-bottom: 10px;
+}
+
+.piezaWrap{
+    background: #fff;
+    padding: 10px;
+}
+
+
+.piezaWrap h5 small{
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+.piezaWrap h4{
+    margin: 0;
+    padding: 0;
+}
+
+.pagination li{
+    background: #fff;
+}
+.controls a{
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #231f20;
+    color: #ec008c;
+}
+
+.collapsible{
+    border: none;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav{
+    -webkit-box-shadow: none; box-shadow: none;
+}
+
+.collapsible-body{
+    padding: 0;
+}
+
+
+/*------
+FOOTER
+-----*/
+
+.page-footer{
+    background: white;
+    font-size: 12px;
+}
+
+.page-footer .footer-copyright{
+    background-color: #ec008c;
+}
+
+
+.page-footer .footer-copyright .container .row{
+    margin-bottom: 0;
+}
+
+
+
+.page-footer .footer-copyright a{
+    margin-right: 20px;
+}
+
+
+.footer-copyright a:nth-last-child(1){
+    margin-right: 0;
+}
+
+
+
+
+@media (max-width: 945px){
+   aside#infoGral{
+       position: initial;
+       width: 100%;
+    }
+    
+    #verExpos{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 990px){
+    nav{
+        min-height: 8rem;
+    }
+}
+
+@media (max-width: 600px){
+
+    footer, #mr{
+        text-align: center;
+    }
+    #mr{
+        padding-top: 10px;
+    }
+}

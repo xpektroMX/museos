@@ -1,0 +1,125 @@
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  file_get_contents(img/icon-user.svg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home3/guilsysc/public_html/museos/sancarlos/menu.php on line 17
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  file_get_contents(img/icon-fb.svg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home3/guilsysc/public_html/museos/sancarlos/menu.php on line 20
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  file_get_contents(img/icon-tw.svg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home3/guilsysc/public_html/museos/sancarlos/menu.php on line 21
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  file_get_contents(img/icon-ig.svg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home3/guilsysc/public_html/museos/sancarlos/menu.php on line 22
+[16-Nov-2017 21:56:55 America/Chicago] PHP Warning:  file_get_contents(img/icon-search.svg) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home3/guilsysc/public_html/museos/sancarlos/menu.php on line 23
+[16-Nov-2017 21:57:41 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:57:41 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:58:25 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:58:25 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:14 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:14 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:19 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:19 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:27 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:27 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:30 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:30 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:39 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:39 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 21:59:43 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 21:59:43 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 22:04:56 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 22:04:56 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 22:06:44 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 22:06:44 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[16-Nov-2017 22:07:18 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[16-Nov-2017 22:07:18 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 08:11:46 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 08:11:46 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 08:12:17 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 08:12:17 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 08:16:58 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 08:16:58 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 12:14:18 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 12:14:18 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 12:14:44 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 12:14:44 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 12:14:55 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 12:14:55 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 12:20:45 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 12:20:45 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[17-Nov-2017 12:21:26 America/Chicago] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so' - /opt/php56/lib/php/extensions/no-debug-non-zts-20131226/imagick.so: undefined symbol: zend_new_interned_string in Unknown on line 0
+[17-Nov-2017 12:21:26 America/Chicago] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20131226
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0

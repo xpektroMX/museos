@@ -1,0 +1,924 @@
+/*!
+ * MUSEO DE ARTE MODERNO
+ * Version - 1.0
+ * Author: Vannelo - http://www.codein.mx
+
+ * - RESOURCES -
+ * COLORS
+ * ACCENT: #118185;
+ * ACCENT: #;
+
+*/
+
+/* TIPOGRAFIA */
+	@font-face {
+	    font-family: gotham;
+	    src: url("../fonts/gotham/gotham.ttf");
+	}
+	@font-face {
+	    font-family: trajan;
+	    src: url("../fonts/trajan/trajan.ttf");
+	}
+	@font-face {
+	    font-family: one;
+	    src: url("../fonts/one/one.ttf");
+	}
+	@font-face {
+	    font-family: lato;
+	    src: url("../fonts/lato/lato-regular.ttf");
+	}
+	@font-face {
+	    font-family: lato;
+	    src: url("../fonts/lato/lato-bold.ttf");
+	    font-weight: bold;
+	}
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-light.ttf");
+	    font-weight: 100;
+	}
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-medium.ttf");
+	    font-weight: 300;
+	}
+	@font-face {
+	    font-family: neutra;
+	    src: url("../fonts/neutra/neutra-bold.ttf");
+	}
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-light.ttf");
+	    font-weight: 100;
+	}
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-regular.ttf");
+	    font-weight: 300;
+	}
+	@font-face {
+	    font-family: proxima;
+	    src: url("../fonts/proxima/proxima-bold.ttf");
+	    font-weight: 600;
+	}
+
+	@font-face {
+	    font-family: oswald;
+	    src: url("../fonts/oswald/oswald-light.ttf");
+	    font-weight: 100;
+	}
+	@font-face {
+	    font-family: oswald;
+	    src: url("../fonts/oswald/oswald-regular.ttf");
+	    font-weight: 300;
+	}
+	@font-face {
+	    font-family: oswald;
+	    src: url("../fonts/oswald/oswald-bold.ttf");
+	    font-weight: 600;
+	}
+
+	@font-face {
+	    font-family: droid;
+	    src: url("../fonts/droid/droid.ttf");
+	}
+
+/* GENERAL */
+	* {
+		font-family: oswald;
+	}
+	.row {
+		margin-bottom: 0 !important;
+		margin: auto !important;
+	}
+
+/* MENÚ */
+	.seccion-menu-desktop {
+		padding: 20px 0px;
+	}
+	.seccion-menu-desktop .barra-01 .izquierda {
+		background-color: black;
+		color: white;
+		padding: 10px;
+		padding-left: 10px;
+	}
+	.seccion-menu-desktop .barra-01 .izquierda img {
+		width: 100px;
+		margin-bottom: -5px;
+	}
+	.seccion-menu-desktop .barra-01 .izquierda h1 {
+		display: inline-block;
+		font-size: 28px;
+		font-family: one;
+		margin: 0;
+	}
+	.seccion-menu-desktop .barra-01 .centro {
+		text-align: center;
+		padding: 15px 0px 0px 0px;
+	}
+	.seccion-menu-desktop .barra-01 .centro svg {
+		width: 25px;
+		height: 25px;
+		margin: 0px 10px;
+	}
+	.seccion-menu-desktop .barra-01 .centro svg path {
+		fill: black !important;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop .barra-01 .centro svg:hover path {
+		fill: gray !important;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop .barra-01 .derecha {
+		padding-top: 10px;
+		text-align: center;
+	}
+	.seccion-menu-desktop .barra-01 .derecha a, .seccion-menu-desktop .barra-01 .izquierda a {
+		background-color: black;
+		color: #ffffff;
+		font-family: one;
+		padding: 5px 10px;
+		margin-right: 2px;
+		display: inline-block;		
+	}
+	.seccion-menu-desktop .barra-01 .derecha svg {
+		width: 15px;
+		height: 10px;
+	}
+	.seccion-menu-desktop .barra-01 .derecha svg path {
+		fill: white !important;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop .barra-01 .derecha svg:hover path {
+		fill: gray !important;
+		transition-duration: .3s;
+	}
+	.seccion-menu-desktop .barra-02 {
+		background-color: white;
+		text-align: center;
+		padding-top: 5px;
+	}
+	.seccion-menu-desktop .barra-02 li {
+		display: inline-block;
+	}
+	.seccion-menu-desktop .barra-02 a {
+		display: inline-block;
+		color: black;
+		font-family: one;
+		padding: 5px 20px;
+		font-size: 20px;
+		transition-duration: .3s;
+
+
+	}
+	.seccion-menu-desktop .barra-02 a:hover {
+		transition-duration: .3s;
+		color: gray;
+	}
+	.seccion-menu-desktop .barra-02 .derecha {
+		padding-top: 20px;
+	}
+	.seccion-menu-desktop .barra-02 .derecha input {
+		width: 60%;
+		line-height: auto;
+		height: auto;
+	}
+	.seccion-menu-desktop .barra-02 .derecha svg {
+		width: 20px;
+		height: 20px;
+	}
+	.seccion-menu-desktop .barra-02 .derecha svg path {
+		fill: black !important;
+	}
+
+	.seccion-menu-mobile {
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding: 20px 0px;
+	}
+	.seccion-menu-mobile .barra-m-01 {
+		background-color: black;
+	}
+	.seccion-menu-mobile .barra-m-01 img {
+		width: 100px;
+	}
+	.seccion-menu-mobile h1 {
+		font-size: 20px;
+		margin: 0;
+		margin: 20px 0px;
+		margin-top: 0;
+	}
+	.seccion-menu-mobile .barra-m-02 {
+		padding: 15px 0px;
+		text-align: center;
+		background-color: white;
+	}
+	.seccion-menu-mobile .boton-menu {
+		width: 35px;
+		margin: auto;
+		cursor: pointer;
+	}
+	.seccion-menu-mobile .linea {
+		width: 100%;
+		height: 3px;
+		background-color: black;
+		margin: 7px 0px;
+	}
+	.seccion-menu-mobile .contenedor-mobile {
+		background-color: white;
+		display: none;
+	}
+	.seccion-menu-mobile a {
+		color: black;
+		display: block;
+		padding: 10px 20px;
+	}
+
+/* HEADER */
+	.seccion-header {
+
+	}
+	.seccion-header .imagen {
+		width: 100%;
+		height: 30vw;
+		background-position: center;
+		background-size: cover;
+	}
+	.seccion-header .caja-header-info {
+		padding: 20px 0px;
+	}
+	.seccion-header h3 {
+		font-family: oswald;
+		font-size: 16px;
+		font-weight: 100;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.seccion-header h4 {
+		font-family: oswald;
+		font-size: 24px;
+		font-weight: 300;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.seccion-header h5 {
+		font-family: oswald;
+		font-size: 20px;
+		font-weight: 100;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.seccion-header .caja-numeros {
+		text-align: center;
+		padding-top: 20px;
+	}
+	.seccion-header .caja-numeros {
+		font-family: oswald;
+		font-size: 22px;
+	}
+	.seccion-header .caja-numeros button {
+		background-color: transparent;
+		border: none;
+		font-weight: 600;
+	}
+
+/* HEADER 2 */
+	.seccion-header-secundario {
+		color: white;
+	}
+	.caja-header-secundario {
+		position: relative;
+	}
+	.caja-header-secundario  .imagen {
+		width: 100%;
+		height: 600px;
+		background-position: center;
+		background-size: cover;
+		z-index: 100;
+	}
+	.caja-header-secundario .caja-texto {
+		position: absolute;
+		top: 250px;
+		left: 5%;
+		z-index: 200;
+		width: 220px;
+	}
+	.caja-header-secundario h2 {
+		font-size: 50px;
+		font-family: oswald;
+	}
+	.caja-header-secundario a {
+		color: black;
+		background-color: white;
+		display: block;
+		margin: auto;
+		width: 90px;
+		text-align: center;
+		padding: 5px 0px;
+		margin-bottom: 10px;
+	}
+	.caja-header-secundario h3 {
+		font-size: 20px;
+		font-family: oswald;
+		margin: 0;
+	}
+	.caja-header-secundario .caja-botones {
+		position: absolute;
+		top: 460px;
+		left: 5%;
+		z-index: 200;
+		text-align: center;
+		font-size: 20px;
+	}
+	.caja-header-secundario .caja-botones button {
+		background-color: transparent;
+		border: none;
+		font-size: 24px;
+		padding: 5px 5px;
+	}
+
+/* ACTIVIDADES */
+	.heading-actividades {
+		margin-top: -20px;
+		background-position: top center;
+		background-size: cover;
+		background-image: url('../img/actividades-bg.jpg');
+		padding: 40px 0px;
+	}
+	.grid-actividades {
+		margin-top: -20px !important;
+		padding: 0px 50px;
+	}
+	.seccion-actividades h3 {
+		font-size: 34px;
+		color: white;
+		text-align: center;
+	}
+	.seccion-actividades .imagen {
+		width: 100%;
+		height: 200px;
+	}
+	.seccion-actividades h4 {
+		font-size: 30px;
+		color: white;
+		padding: 0px 20px;
+	}
+	.seccion-actividades p {
+		font-size: 14px;
+		color: white;
+		padding: 0px 20px;
+		font-weight: 100;
+	}
+
+/* INFORMACIÓN */
+	.seccion-informacion {
+		padding: 70px 0px;
+	}
+	.seccion-informacion h3 {
+		font-size: 24px;
+		color: white;
+		background-color: black;
+		width: 370px;
+		margin: auto;
+		text-align: center;
+		padding: 10px;
+	}
+	.row-informacion {
+		background-color: #eee;
+		padding: 0px 20px;
+	}
+	.row-informacion .col {
+		padding: 10px 0px;
+	}
+	.row-informacion h4 {
+		font-size: 16px;
+	}
+	.row-informacion p {
+		font-size: 14px;
+		font-family: lato;
+	}
+
+/* REGISTRO */
+	.seccion-registro {
+		padding: 100px 0px;
+	}
+	.row-registro {
+		background-color: #eee;
+		height: 100px;
+		padding: 0px 100px;
+	}
+	.caja-registro .imagen {
+		width: 100%;
+		height: 230px;
+		background-image: url('../img/registro.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+	.caja-registro {
+		margin-top: -60px !important;
+		height: 230px;
+		background-color: white;
+		border: 1px solid #666;
+	}
+	.caja-registro h3 {
+		font-size: 12px;
+		text-align: center;
+		margin: 0;
+		color: gray;
+		font-family: lato;
+		margin-top: 30px;
+	}
+	.caja-registro h4 {
+		font-size: 13px;
+		text-align: center;
+		margin: 0;
+		color: black;
+		font-family: lato;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+	.caja-registro h5 {
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+		color: gray;
+		font-family: lato;
+		margin-top: 10px;
+	}
+	.caja-registro .separador {
+		width: 60%;
+		height: 1px;
+		background-color: #bbb;
+		margin: auto;
+		margin-top: 10px;
+	}
+	.caja-registro p {
+		font-size: 14px;
+		text-align: center;
+		margin: 0;
+		color: gray;
+		font-family: lato;
+		margin-top: 10px;
+		padding: 20px;
+	}
+	.caja-registro a {
+		font-family: lato;
+	}
+	.caja-registro svg {
+		width: 15px;
+		height: 15px;
+		margin: 0px 10px;
+	}
+	.caja-registro svg path {
+		fill: white !important;
+	}
+	.caja-registro svg:hover path {
+		fill: gray !important;
+	}
+	.caja-registro .link {
+		color: white;
+		display: block;
+		padding: 10px 20px;
+	}
+	.caja-redes {
+		text-align: center;
+		padding: 10px 0px;
+	}
+
+/* LOGOS */
+	.seccion-logos {
+		text-align: center;
+		padding-top: 50px;
+	}
+	.seccion-logos .logo1 {
+		width: 200px;
+		margin: 0px 20px;
+	}
+	.seccion-logos .logo2 {
+		width: 100px;
+		margin: 0px 20px;
+	}
+	.seccion-logos .logo3 {
+		width: 150px;
+		margin: 0px 20px;
+		margin-bottom: 20px;
+	}
+
+/* FOOTER */
+	.seccion-footer {
+		background-color: black;
+		color: white;
+		font-family: lato;
+		padding: 15px 0px;
+		text-align: center;
+		margin-top: 100px;
+
+
+	}
+
+
+/* ---------- COLECCIÓN ----------- */
+
+	.seccion-titulo {
+		background-color: #ccc;
+		padding: 30px 0px;
+		font-family: proxima !important;
+	}
+	.seccion-titulo h2 {
+		color: white;
+		font-size: 80px;
+		text-align: center;
+	}
+	.seccion-coleccion {
+		background-color: #111;
+		color: white;
+	}
+	.seccion-coleccion .row {
+
+	}
+	.seccion-coleccion .izquierda {
+
+	}
+	.seccion-coleccion .izquierda h3 {
+		background-color: black;
+		color: white;
+		text-align: center;
+		font-size: 16px;
+		border: 3px solid white;
+		margin: 0;
+		padding: 10px 0px;
+		font-family: proxima;
+		font-weight: 900;
+		margin-bottom: 50px;
+	}
+	.seccion-coleccion .izquierda h4 {
+		font-size: 16px;
+		text-align: center;
+		padding: 5px;
+		font-family: proxima;
+	}
+	.seccion-coleccion .row-filtros .col {
+		padding: 8px 0px;
+		border: 3px solid white;
+		height: 43px;
+		text-align: center;
+		font-family: proxima;
+	}
+	.seccion-coleccion input {
+		height: auto;
+		line-height: auto;
+		padding: 0;
+		width: 90%;
+	}
+	.seccion-coleccion .row-filtros img {
+		width: 18px;
+		margin: 2px 5px;
+		margin-bottom: -2px;
+	}
+	.seccion-coleccion .separador {
+		width: 60%;
+		height: 1px;
+		background-color: #ccc;
+		margin: 20px 0px;
+		margin: auto;
+	}
+	.seccion-coleccion .izquierda h5 {
+		font-size: 13px;
+		text-align: center;
+		padding: 10px 30px;
+		font-family: proxima;
+		font-weight: 100;
+		text-align: right;
+	}
+	.seccion-coleccion .padding-coleccion {
+		padding: 40px 0px;
+	}
+	.seccion-coleccion .row-coleccion {
+
+	}
+	.seccion-coleccion .marco-coleccion {
+		padding: 20px;
+	}
+	.caja-coleccion .imagen {
+		width: 90%;
+		height: 150px;
+		margin: auto;
+		background-position: center;
+		background-size: cover;
+	}
+	.caja-coleccion h3 {
+		font-size: 16px;
+		color: white;
+		font-weight: 100;
+		font-family: proxima;
+		margin: 0;
+		margin: 10px 0px;
+	}
+	.caja-coleccion h4 {
+		font-size: 18px;
+		color: white;
+		font-weight: 600;
+		font-family: proxima;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.caja-paginas {
+		text-align: center;
+	}
+	.caja-paginas button {
+		border: 2px solid black;
+		padding: 0;
+		background-color: white;
+		color: black;
+		padding: 3px 10px;
+	}
+
+
+/* ---------- OBJETO -------------- */
+	
+	.seccion-objeto {
+
+	}
+	.seccion-objeto .imagen-principal img {
+		width: 100%;
+	}
+	.seccion-objeto .caja-herramientas {
+		margin:auto;
+		background-color: black;
+		padding: 10px;
+		width: 300px;
+		text-align: center;
+		margin-top: -4px;
+	}
+	.seccion-objeto .caja-herramientas svg {
+		width: 20px;
+		height: 20px;
+		margin: 0px 10px;
+	}
+	.seccion-objeto .caja-herramientas svg path {
+		fill: white !important;
+	}
+	.seccion-objeto .caja-titulo {
+		background-color: #eee;
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.seccion-objeto .caja-titulo h2 {
+		font-size: 24px;
+	}
+	.seccion-objeto .caja-titulo h3 {
+		font-size: 20px;
+		font-family: proxima;
+	}
+	.seccion-objeto .caja-titulo p {
+		font-size: 14px;
+		font-family: proxima;
+	}
+	.seccion-objeto .caja-ficha h3 {
+		background-color: black;
+		width: 300px;
+		padding: 10px;
+		font-size: 14px;
+		color: white;
+		margin: auto;
+		text-align: center;
+		font-family: proxima;
+	}
+	.seccion-objeto .caja-ficha .izquierda {
+		padding: 20px;
+	}
+	.seccion-objeto .caja-ficha .izquierda h3 {
+		background-color: #eee;
+		text-align: center;
+		font-family: proxima;
+		color: black;
+		width: auto;
+	}
+	.seccion-objeto .caja-ficha .izquierda p {
+		font-family: proxima;
+		color: gray;
+	}
+	.seccion-objeto .caja-ficha .centro {
+		padding: 20px;
+	}
+	.seccion-objeto .caja-ficha .centro p {
+		color: black;
+		font-family: proxima;
+	} 
+	.seccion-objeto .caja-ficha .centro h4 {
+		font-size: 18px;
+		font-family: proxima;
+		text-align: center;
+		font-weight: 100;
+		margin: 30px 0px;
+	}
+	.seccion-objeto .row-multimedia .col {
+		padding: 10px;
+	}
+	.seccion-objeto .row-multimedia .imagen {
+		width: 100%;
+		height: 100px;
+		background-position: center;
+		background-size: cover;
+	}
+	.seccion-objeto .row-multimedia h5 {
+		font-size: 14px;
+		font-family: proxima;
+		font-weight: 100;		
+	}
+	.seccion-objeto .row-multimedia h6 {
+		font-size: 18px;
+		font-family: proxima;
+		font-weight: 600;		
+	}
+	.seccion-objeto .row-relacionadas .imagen {
+		width: 100%;
+		height: 130px;
+		background-position: center;
+		background-size: cover;
+	}
+	.seccion-objeto .derecha {
+		padding: 20px;
+	}
+	.seccion-objeto .derecha .imagen {
+		width: 100%;
+		height: 160px;
+		background-position: center;
+		background-size: cover;
+	}
+	.seccion-objeto .derecha h3 {
+		color: gray;
+		background-color: transparent;
+		width: auto;
+		margin: 0;
+		font-size: 16px;
+		font-family: proxima;
+		font-weight: 500;
+		text-align: center;
+	}
+	.seccion-objeto .derecha h4 {
+		color: gray;
+		background-color: transparent;
+		width: auto;
+		margin: 0;
+		font-size: 18px;
+		font-family: proxima;
+		font-weight: 500;
+		text-align: center;
+
+	}
+	.seccion-objeto .derecha p {
+		color: gray;
+		margin: 10px 0px;
+		font-size: 14px;
+		font-family: proxima;
+		font-weight: 500;
+	}
+	.seccion-objeto .derecha h5 {
+		background-color: #eee;
+		color: black;
+		font-family: proxima;
+		font-size: 14px;
+		text-align: center;
+		padding: 10px 0px;
+	}
+	.seccion-objeto .derecha h6 {
+		font-size: 14px;
+		font-family: proxima;
+		text-align: center;
+		margin: 20px 0px;
+	}
+	.seccion-objeto .derecha .etiqueta {
+		font-family: proxima;
+		font-size: 12px;
+		text-align: center;
+		color: black;
+	}
+	.seccion-objeto .derecha .separador {
+		width: 80%;
+		margin: 10px 0px;
+		height: 1px;
+		background-color: black;
+		margin: auto;
+	}
+
+
+/* RESPONSIVE */
+
+	@media only screen and (max-width: 1000px) { 
+		.seccion-menu-desktop {
+			display: none;
+		}
+		.seccion-menu-mobile {
+			display: block;
+		}
+		.seccion-header {
+			padding: 20px 0px;
+		}
+		.caja-header-secundario  .imagen {
+			height: 300px;
+		}
+		.caja-header-secundario .caja-texto {
+			position: absolute;
+			top: 50px;
+			left: 5%;
+			width: 90%;
+			text-align: left;
+		}
+		.caja-header-secundario h2 {
+			font-size: 30px;
+			font-family: oswald;
+		}
+		.caja-header-secundario a {
+			display: inline-block;
+			padding: 5px 0px;
+			margin-bottom: 10px;
+		}
+		.grid-actividades {
+			margin-top: -20px !important;
+			padding: 0px 20px;
+		}
+		.caja-header-secundario .caja-botones {
+			position: absolute;
+			top: 230px;
+			left: 5%;
+			z-index: 200;
+			text-align: center;
+			font-size: 20px;
+		}
+		.seccion-informacion h3 {
+			font-size: 22px;
+			width: auto;
+			color: white;
+			background-color: black;
+			margin: auto;
+			text-align: center;
+			padding: 10px;
+		}
+		.row-registro {
+			height: auto;
+			padding: 0px 30px;
+		}
+		.seccion-logos {
+			text-align: center;
+			padding: 0px 0px;
+		}
+		.seccion-logos .logo1 {
+			width: 150px;
+			margin: 0px 10px;
+			display: block;
+			margin: auto;
+		}
+		.seccion-logos .logo2 {
+			width: 50px;
+			margin: 0px 10px;
+		}
+		.seccion-logos .logo3 {
+			width: 100px;
+			margin: 0px 10px;
+			margin-bottom: 8px;
+		}
+	}
+
+	@media only screen and (min-width: 1000px) { 
+		.seccion-menu-desktop {
+			display: block;
+		}
+		.seccion-menu-mobile {
+			display: none;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

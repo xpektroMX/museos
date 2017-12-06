@@ -1,0 +1,254 @@
+body {
+	background: url('../images/background-4.jpg') center center no-repeat fixed #000000;
+	background-size: cover;
+}
+
+nav {
+	position: relative;
+	z-index: 1000;
+	top: 60px;
+}
+.seccion-titulo {
+	background-color: transparent;
+	padding: 30px 0px;
+	margin-top: 50px;
+}
+
+
+/* ---------- OBJETO ----------- */
+#seccion-obj-imagen {
+	background-color: #000000;
+	font-family: "NeutraText-Book"!important;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+#seccion-obj-imagen .caja-herramientas {
+	margin:auto;
+	color: #ffffff;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+	margin-top: -4px;
+}
+#seccion-obj-imagen .caja-herramientas img {
+	width: 20px!important;
+	margin-right: 40px;
+}
+
+#seccion-obj-imagen .caja-ficha-01 h3 {
+	color: #ffffff;
+	font-family: "NeutraText-Book";
+	font-size: 25px;
+	margin-bottom: 0;
+}
+#seccion-obj-imagen .caja-ficha-01 h4 {
+	color: #ffffff;
+	font-family: "NeutraText-Light";
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#seccion-obj-imagen div.row div.col.l12.s12.center img {
+	width: 50%;
+}
+
+#seccion-breadcumb {
+	font-family: "NeutraText-Book";
+	margin-top: 40px;
+}
+
+a.breadcrumb {
+	font-size: 14px;
+	line-height: normal;
+}
+
+#seccion-obj-info {
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#seccion-obj-info .col {
+	
+}
+
+#seccion-obj-info  .texto-info {
+	background-color: #ffffff;
+	padding: 30px;
+	min-height: 420px;
+}
+
+#seccion-obj-info .texto-info h4 {
+	font-size: 18px;
+	font-family: "NeutraText-Bold";
+	margin-top: 0;
+}
+
+#seccion-obj-info .texto-info p {
+	font-size: 14px;
+	font-family: "NeutraText-Book";
+}
+
+#seccion-obj-info .texto-info span.ver-mas {
+	font: 18px "NeutraText-Bold";
+	margin-top: 10px;
+	display: block;
+	position: relative;
+}
+
+#seccion-obj-info .texto-info h5 {
+	font-size: 14px;
+	font-family: "NeutraText-Bold";
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+#multimedia  h4 {
+	font-size: 24px;
+	font-family: "NeutraText-Bold";
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#multimedia  img {
+	width: 60%;
+}
+
+#multimedia  h5 {
+	font-size: 14px;
+	font-family: "NeutraText-Bold";
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#multimedia p {
+	font-size: 14px;
+	font-family: "NeutraText-Book";
+	color: #ffffff;
+	text-align: center;
+	margin-top: 0px;
+}
+
+#obras-relacionadas .controles h4 {
+	font-size: 22px;
+	font-family: "NeutraText-Bold";
+	color: #ffffff;
+}
+
+#obras-relacionadas .imagenrel {
+	padding: 15px;
+
+}
+
+#obras-relacionadas .imagenrel .imagen {
+	display: block;
+	width: 100%;
+	
+}
+
+#obras-relacionadas .imagenrel h5 {
+	font-size: 14px;
+	font-family: "NeutraText-Bold";
+	color: #ffffff;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+
+#obras-relacionadas p {
+	font-size: 14px;
+	font-family: "NeutraText-Book";
+	color: #ffffff;
+	margin-top: 0px;
+}
+
+#seccion-obj-info .derecha .texto-info>p {
+	font-size: 14px;
+	font-family: "NeutraText-Book";
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#palabras-clave {
+	background-color: #ffffff;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#palabras-clave h4 {
+	font-size: 22px;
+	font-family: "NeutraText-Bold";
+}
+#palabras-clave p {
+	font-size: 14px/22px;
+	font-family: "NeutraText-Book";
+}
+#palabras-clave span {
+	margin-right: 2%;
+	cursor: pointer;
+}
+
+
+#mas-info  h3 {
+	font-size: 14px;
+	font-family: "NeutraText-Bold";
+	color: #ffffff;
+	margin: 20px auto 0px;
+	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ffffff;
+	display: block;
+	width: 150px;
+}
+#mas-info {
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#mas-info .col {
+	width: 100%;
+}
+
+#mas-info  .texto-info {
+	background-color: #ffffff;
+	padding: 30px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+#mas-info .texto-info h4 {
+	font-size: 18px;
+	font-family: "NeutraText-Bold";
+	margin-top: 0;
+}
+
+#mas-info .texto-info p {
+	font-size: 14px;
+	font-family: "NeutraText-Book";
+}
+
+#mas-info .texto-info span.ver-mas {
+	font: 18px "NeutraText-Bold";
+	margin-top: 10px;
+	display: block;
+	position: relative;
+}
+
+#mas-info .texto-info h5 {
+	font-size: 14px;
+	font-family: "NeutraText-Bold";
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+
+#seccion-registro {
+	background: transparent;
+	font: 12px "ProximaNova-Regular";
+	height: auto;
+}
+

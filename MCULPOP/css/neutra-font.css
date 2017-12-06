@@ -1,0 +1,42 @@
+/*------
+TIPOGRAFÍA
+------*/
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('NeutraText-Light.eot');
+    src: local('NeutraText-Light'),
+        url('../fonts/neutra/NeutraText-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/neutra/NeutraText-Light.woff2') format('woff2'),
+        url('../fonts/neutra/NeutraText-Light.woff') format('woff'),
+        url('../fonts/neutra/NeutraText-Light.ttf') format('truetype'),
+        url('../fonts/neutra/NeutraText-Light.svg#NeutraText-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('NeutraText-Bold.eot');
+    src: local('NeutraText-Bold'),
+        url('../fonts/neutra/NeutraText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/neutra/NeutraText-Bold.woff2') format('woff2'),
+        url('../fonts/neutra/NeutraText-Bold.woff') format('woff'),
+        url('../fonts/neutra/NeutraText-Bold.ttf') format('truetype'),
+        url('../fonts/neutra/NeutraText-Bold.svg#NeutraText-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutra Text';
+    src: url('NeutraText-Demi.eot');
+    src: local('NeutraText-Demi'),
+        url('../fonts/neutra/NeutraText-Dem i.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/neutra/NeutraText-Demi.woff2') format('woff2'),
+        url('../fonts/neutra/NeutraText-Demi.woff') format('woff'),
+        url('../fonts/neutra/NeutraText-Demi.ttf') format('truetype'),
+        url('../fonts/neutra/NeutraText-Demi.svg#NeutraText-Demi') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
